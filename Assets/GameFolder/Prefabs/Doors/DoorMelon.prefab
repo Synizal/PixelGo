@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385991499}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.06, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3905977135195191599}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &385991501
 SpriteRenderer:
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -108,13 +108,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808337097}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.06, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7446854216668516902}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &808337099
 SpriteRenderer:
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -173,11 +173,28 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 478116858730400918, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 835913906920266333, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 835913906920266333, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087942623041220317, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_Size.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087942623041220317, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5071690005383955351, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
       propertyPath: m_RootOrder
@@ -223,11 +240,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6700681962886368481, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6700681962886368481, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525253605378290614, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_Size.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525253605378290614, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8553562390226189820, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
       propertyPath: m_Name
-      value: DoorMelon (1)
+      value: DoorMelon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 478116858730400918, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 385991500}
+    - targetCorrespondingSourceObject: {fileID: 6327213647135156127, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 808337098}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7c70cbea57e6440949dddd5b656664, type: 3}
 --- !u!4 &3905977135195191599 stripped
 Transform:
